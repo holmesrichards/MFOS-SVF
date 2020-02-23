@@ -8,6 +8,3 @@ Wilson's design was for a module in his own preferred format, with ±12V and gro
 Included in this repository are KiCad-format schematics and PCB designs for the two circuit boards, as well as an Inkscape .svg file for the panel design and a KiCad-format "PCB" for fabrication of the panel by a PCB company.
 
 The schematics are closely based upon Wilson's original and are governed by licensing information at http://musicfromouterspace.com. The PCB layouts and panel design are new, by Richard Holmes.
-
-MFOS state variable filter (earlier version) for Eurorack by Ray Wilson (original creator), Richard Holmes (Eurorack adaptation) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, except to the extent that Wilson's original rights take precedence.
-Based on a work at http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=OLDIESBUTGOODIES/VCF/vcfstatevar.html&VPW=2087&VPH=905.
