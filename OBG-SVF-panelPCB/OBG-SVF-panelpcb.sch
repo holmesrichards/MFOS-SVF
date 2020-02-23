@@ -1,0 +1,439 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R8
+U 1 1 5E4798CB
+P 2600 1500
+F 0 "R8" H 2530 1454 50  0000 R CNN
+F 1 "9.1k" H 2530 1545 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E47A461
+P 2600 1650
+F 0 "#PWR0102" H 2600 1400 50  0001 C CNN
+F 1 "GND" H 2605 1477 50  0000 C CNN
+F 2 "" H 2600 1650 50  0001 C CNN
+F 3 "" H 2600 1650 50  0001 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E47EF76
+P 3600 1350
+F 0 "R2" V 3393 1350 50  0000 C CNN
+F 1 "100k" V 3484 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3530 1350 50  0001 C CNN
+F 3 "~" H 3600 1350 50  0001 C CNN
+	1    3600 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5E4847F5
+P 2900 3650
+F 0 "R6" V 2693 3650 50  0000 C CNN
+F 1 "100k" V 2784 3650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2830 3650 50  0001 C CNN
+F 3 "~" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 1800 1000 0    50   Input ~ 0
+Res1
+Text GLabel 1800 1350 0    50   Input ~ 0
+Res2
+$Comp
+L Device:R_POT R5
+U 1 1 5E5FFCFB
+P 2050 1350
+F 0 "R5" V 1935 1350 50  0000 C CNN
+F 1 "100k" V 1844 1350 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2050 1350 50  0001 C CNN
+F 3 "~" H 2050 1350 50  0001 C CNN
+	1    2050 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1350 2600 1350
+Wire Wire Line
+	1900 1350 1800 1350
+Wire Wire Line
+	1800 1000 2050 1000
+Wire Wire Line
+	2050 1000 2050 1200
+$Comp
+L Device:R_POT R1
+U 1 1 5E617025
+P 3300 1350
+F 0 "R1" H 3231 1396 50  0000 R CNN
+F 1 "100k" H 3231 1305 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 3300 1350 50  0001 C CNN
+F 3 "~" H 3300 1350 50  0001 C CNN
+	1    3300 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 1200 1    50   Input ~ 0
++12V
+Text GLabel 3750 1350 2    50   Input ~ 0
+R1(2)
+$Comp
+L power:GND #PWR0109
+U 1 1 5E6198EB
+P 3300 1500
+F 0 "#PWR0109" H 3300 1250 50  0001 C CNN
+F 1 "GND" H 3305 1327 50  0000 C CNN
+F 2 "" H 3300 1500 50  0001 C CNN
+F 3 "" H 3300 1500 50  0001 C CNN
+	1    3300 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 1150 0    50   ~ 0
+Resonance
+Text Notes 3450 1100 0    50   ~ 0
+Freq Adj
+$Comp
+L eurocad:PJ301M-12 J1
+U 1 1 5E6260CC
+P 1650 2200
+F 0 "J1" H 1650 2000 50  0000 C CNN
+F 1 "AudioJack2" H 1650 1900 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 1650 2200 50  0001 C CNN
+F 3 "~" H 1650 2200 50  0001 C CNN
+	1    1650 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E494C98
+P 2100 2350
+F 0 "#PWR0110" H 2100 2100 50  0001 C CNN
+F 1 "GND" H 2105 2177 50  0000 C CNN
+F 2 "" H 2100 2350 50  0001 C CNN
+F 3 "" H 2100 2350 50  0001 C CNN
+	1    2100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E49B71C
+P 4100 2400
+F 0 "#PWR0111" H 4100 2150 50  0001 C CNN
+F 1 "GND" H 4105 2227 50  0000 C CNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5E49D5E5
+P 4100 3100
+F 0 "#PWR0112" H 4100 2850 50  0001 C CNN
+F 1 "GND" H 4105 2927 50  0000 C CNN
+F 2 "" H 4100 3100 50  0001 C CNN
+F 3 "" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E4A330A
+P 4100 3800
+F 0 "#PWR0113" H 4100 3550 50  0001 C CNN
+F 1 "GND" H 4105 3627 50  0000 C CNN
+F 2 "" H 4100 3800 50  0001 C CNN
+F 3 "" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L eurocad:PJ301M-12 J2
+U 1 1 5E4D3510
+P 4550 2250
+F 0 "J2" H 4550 2050 50  0000 C CNN
+F 1 "AudioJack2" H 4550 1950 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4550 2250 50  0001 C CNN
+F 3 "~" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4100 2250
+Text GLabel 3050 2250 2    50   Input ~ 0
+SigIn
+$Comp
+L power:GND #PWR0114
+U 1 1 5E4ECF09
+P 2100 3750
+F 0 "#PWR0114" H 2100 3500 50  0001 C CNN
+F 1 "GND" H 2105 3577 50  0000 C CNN
+F 2 "" H 2100 3750 50  0001 C CNN
+F 3 "" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 3650 2    50   Input ~ 0
+CVIn
+$Comp
+L eurocad:PJ301M-12 J4
+U 1 1 5E4F3F38
+P 4550 2950
+F 0 "J4" H 4550 2750 50  0000 C CNN
+F 1 "AudioJack2" H 4550 2650 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4550 2950 50  0001 C CNN
+F 3 "~" H 4550 2950 50  0001 C CNN
+	1    4550 2950
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4100 2950
+$Comp
+L eurocad:PJ301M-12 J6
+U 1 1 5E4F9123
+P 4550 3650
+F 0 "J6" H 4550 3450 50  0000 C CNN
+F 1 "AudioJack2" H 4550 3350 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 4550 3650 50  0001 C CNN
+F 3 "~" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4100 3650
+NoConn ~ -1850 3550
+Wire Wire Line
+	2100 2200 2100 2350
+Connection ~ 2100 2350
+Wire Wire Line
+	2100 3600 2100 3750
+Connection ~ 2100 3750
+$Comp
+L eurocad:PJ301M-12 J5
+U 1 1 5E4ECEFF
+P 1650 3600
+F 0 "J5" H 1650 3400 50  0000 C CNN
+F 1 "AudioJack2" H 1650 3300 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 1650 3600 50  0001 C CNN
+F 3 "~" H 1650 3600 50  0001 C CNN
+	1    1650 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L eurocad:PJ301M-12 J3
+U 1 1 5E4DFEBE
+P 1650 2900
+F 0 "J3" H 1650 2700 50  0000 C CNN
+F 1 "AudioJack2" H 1650 2600 50  0000 C CNN
+F 2 "Eurocad:PJ301M-12" H 1650 2900 50  0001 C CNN
+F 3 "~" H 1650 2900 50  0001 C CNN
+	1    1650 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E4DFEC8
+P 2100 3050
+F 0 "#PWR0115" H 2100 2800 50  0001 C CNN
+F 1 "GND" H 2105 2877 50  0000 C CNN
+F 2 "" H 2100 3050 50  0001 C CNN
+F 3 "" H 2100 3050 50  0001 C CNN
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2900 2100 3050
+Connection ~ 2100 3050
+$Comp
+L Device:R R9
+U 1 1 5E473243
+P 2900 2250
+F 0 "R9" V 2693 2250 50  0000 C CNN
+F 1 "270k" V 2784 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2830 2250 50  0001 C CNN
+F 3 "~" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5E53705F
+P 2900 2950
+F 0 "R29" V 2693 2950 50  0000 C CNN
+F 1 "270k" V 2784 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2830 2950 50  0001 C CNN
+F 3 "~" H 2900 2950 50  0001 C CNN
+	1    2900 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT R31
+U 1 1 5E5B699A
+P 2600 2250
+F 0 "R31" H 2531 2296 50  0000 R CNN
+F 1 "100k" H 2531 2205 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 2250 50  0001 C CNN
+F 3 "~" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5E5B69A4
+P 2600 2400
+F 0 "#PWR0116" H 2600 2150 50  0001 C CNN
+F 1 "GND" H 2605 2227 50  0000 C CNN
+F 2 "" H 2600 2400 50  0001 C CNN
+F 3 "" H 2600 2400 50  0001 C CNN
+	1    2600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT R32
+U 1 1 5E5C88FB
+P 2600 2950
+F 0 "R32" H 2531 2996 50  0000 R CNN
+F 1 "100k" H 2531 2905 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 2950 50  0001 C CNN
+F 3 "~" H 2600 2950 50  0001 C CNN
+	1    2600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5E5C8905
+P 2600 3100
+F 0 "#PWR0117" H 2600 2850 50  0001 C CNN
+F 1 "GND" H 2605 2927 50  0000 C CNN
+F 2 "" H 2600 3100 50  0001 C CNN
+F 3 "" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT R33
+U 1 1 5E5D7724
+P 2600 3650
+F 0 "R33" H 2531 3696 50  0000 R CNN
+F 1 "100k" H 2531 3605 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 3650 50  0001 C CNN
+F 3 "~" H 2600 3650 50  0001 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5E5D772E
+P 2600 3800
+F 0 "#PWR0118" H 2600 3550 50  0001 C CNN
+F 1 "GND" H 2605 3627 50  0000 C CNN
+F 2 "" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2100 2600 2100
+Wire Wire Line
+	2100 2800 2600 2800
+Wire Wire Line
+	2100 3500 2600 3500
+Text GLabel 3200 4900 0    50   Input ~ 0
+Res1
+Text GLabel 3700 4800 2    50   Input ~ 0
++12V
+Text GLabel 3700 4700 2    50   Input ~ 0
+SigIn
+Text GLabel 3700 5000 2    50   Input ~ 0
+CVIn
+Text GLabel 3200 4600 0    50   Input ~ 0
+SigIn2
+$Comp
+L Device:R R24
+U 1 1 5E4F6CAD
+P 3950 3550
+F 0 "R24" V 4157 3550 50  0000 C CNN
+F 1 "1k" V 4066 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 3550 50  0001 C CNN
+F 3 "~" H 3950 3550 50  0001 C CNN
+	1    3950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5E47771A
+P 3950 2150
+F 0 "R16" V 3743 2150 50  0000 C CNN
+F 1 "1k" V 3834 2150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 2150 50  0001 C CNN
+F 3 "~" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5E4A4B20
+P 3950 2850
+F 0 "R23" V 4157 2850 50  0000 C CNN
+F 1 "1k" V 4066 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3880 2850 50  0001 C CNN
+F 3 "~" H 3950 2850 50  0001 C CNN
+	1    3950 2850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3800 2150 0    50   Input ~ 0
+HP
+Text GLabel 3800 2850 0    50   Input ~ 0
+BP
+Text GLabel 3800 3550 0    50   Input ~ 0
+LP
+Text GLabel 3050 2950 2    50   Input ~ 0
+SigIn2
+Text GLabel 3700 4600 2    50   Input ~ 0
+HP
+Text GLabel 3700 4900 2    50   Input ~ 0
+BP
+Text GLabel 3200 5100 0    50   Input ~ 0
+LP
+Text GLabel 3200 4700 0    50   Input ~ 0
+Res2
+Text GLabel 3700 5100 2    50   Input ~ 0
+R1(2)
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4987D0
+P 3200 4800
+F 0 "#PWR0101" H 3200 4550 50  0001 C CNN
+F 1 "GND" H 3205 4627 50  0000 C CNN
+F 2 "" H 3200 4800 50  0001 C CNN
+F 3 "" H 3200 4800 50  0001 C CNN
+	1    3200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J9
+U 1 1 5E49920A
+P 3400 4800
+F 0 "J9" H 3450 5217 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 3450 5126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 3400 4800 50  0001 C CNN
+F 3 "~" H 3400 4800 50  0001 C CNN
+	1    3400 4800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
