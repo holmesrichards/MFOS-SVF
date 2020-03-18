@@ -89,7 +89,7 @@ F 1 "100k" H 3231 1305 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 3300 1350 50  0001 C CNN
 F 3 "~" H 3300 1350 50  0001 C CNN
 	1    3300 1350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 3300 1200 1    50   Input ~ 0
 +12V
@@ -111,7 +111,7 @@ Resonance
 Text Notes 3450 1100 0    50   ~ 0
 Freq Adj
 $Comp
-L eurocad:PJ301M-12 J1
+L EurorackRSH:Jack_123_pins J1
 U 1 1 5E6260CC
 P 1650 2200
 F 0 "J1" H 1650 2000 50  0000 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 4100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eurocad:PJ301M-12 J2
+L EurorackRSH:Jack_123_pins J2
 U 1 1 5E4D3510
 P 4550 2250
 F 0 "J2" H 4550 2050 50  0000 C CNN
@@ -193,7 +193,7 @@ $EndComp
 Text GLabel 3050 3650 2    50   Input ~ 0
 CVIn
 $Comp
-L eurocad:PJ301M-12 J4
+L EurorackRSH:Jack_123_pins J4
 U 1 1 5E4F3F38
 P 4550 2950
 F 0 "J4" H 4550 2750 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "~" H 4550 2950 50  0001 C CNN
 $EndComp
 NoConn ~ 4100 2950
 $Comp
-L eurocad:PJ301M-12 J6
+L EurorackRSH:Jack_123_pins J6
 U 1 1 5E4F9123
 P 4550 3650
 F 0 "J6" H 4550 3450 50  0000 C CNN
@@ -219,12 +219,10 @@ NoConn ~ 4100 3650
 NoConn ~ -1850 3550
 Wire Wire Line
 	2100 2200 2100 2350
-Connection ~ 2100 2350
 Wire Wire Line
 	2100 3600 2100 3750
-Connection ~ 2100 3750
 $Comp
-L eurocad:PJ301M-12 J5
+L EurorackRSH:Jack_123_pins J5
 U 1 1 5E4ECEFF
 P 1650 3600
 F 0 "J5" H 1650 3400 50  0000 C CNN
@@ -235,7 +233,7 @@ F 3 "~" H 1650 3600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L eurocad:PJ301M-12 J3
+L EurorackRSH:Jack_123_pins J3
 U 1 1 5E4DFEBE
 P 1650 2900
 F 0 "J3" H 1650 2700 50  0000 C CNN
@@ -258,7 +256,6 @@ F 3 "" H 2100 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 2900 2100 3050
-Connection ~ 2100 3050
 $Comp
 L Device:R R9
 U 1 1 5E473243
@@ -290,7 +287,7 @@ F 1 "100k" H 2531 2205 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 2250 50  0001 C CNN
 F 3 "~" H 2600 2250 50  0001 C CNN
 	1    2600 2250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0116
@@ -312,7 +309,7 @@ F 1 "100k" H 2531 2905 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 2950 50  0001 C CNN
 F 3 "~" H 2600 2950 50  0001 C CNN
 	1    2600 2950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0117
@@ -334,7 +331,7 @@ F 1 "100k" H 2531 3605 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 2600 3650 50  0001 C CNN
 F 3 "~" H 2600 3650 50  0001 C CNN
 	1    2600 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0118

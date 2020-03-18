@@ -623,12 +623,12 @@ Wire Wire Line
 	4050 6650 3650 6650
 Connection ~ 3650 6650
 $Comp
-L eurocad:EURO_PWR_2x5 J7
+L EurorackRSH:EURO_PWR_2x5 J7
 U 1 1 5E49AE2C
 P 1900 6350
 F 0 "J7" H 1900 6797 60  0000 C CNN
 F 1 "EURO_PWR_2x5" H 1900 6691 60  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1900 6691 60  0001 C CNN
+F 2 "EurorackRSH:Eurorack_Power_Header_Shrouded" H 1900 6691 60  0001 C CNN
 F 3 "" H 1900 6350 60  0001 C CNN
 	1    1900 6350
 	1    0    0    -1  
@@ -743,7 +743,7 @@ F 1 "1N5817" H 2750 6175 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2750 5875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2750 6050 50  0001 C CNN
 	1    2750 6050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N5817 D2
@@ -754,12 +754,10 @@ F 1 "1N5817" H 2750 6525 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2750 6475 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2750 6650 50  0001 C CNN
 	1    2750 6650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 6650 2600 6650
-Text Label 2850 6650 0    50   ~ 0
--12V
 Wire Wire Line
 	2900 6650 3150 6650
 Connection ~ 4050 6050
@@ -783,8 +781,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 6050 3450 6050
 NoConn ~ -1850 3550
-Text Label 2850 6050 0    50   ~ 0
-+12V
 Text Label 2350 1800 0    50   ~ 0
 Input
 Text Label 5650 1500 0    50   ~ 0
