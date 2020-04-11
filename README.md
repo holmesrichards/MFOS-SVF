@@ -10,9 +10,9 @@ Included in this repository are KiCad-format schematics and PCB designs for the 
 The schematics are closely based upon Wilson's original and are governed by licensing information at http://musicfromouterspace.com. The PCB layouts and panel design are new, by Richard Holmes.
 
 BOMs are here:
-https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-mainPCB/OBG-SVF-mainpcb.html
+https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-mainPCB/OBG-SVF-mainpcb_bom.md
 and here:
-https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-panelPCB/OBG-SVF-panelpcb.html
+https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-panelPCB/OBG-SVF-panelpcb_bom.md
 
 ## Build notes
 
