@@ -13,3 +13,11 @@ BOMs are here:
 https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-mainPCB/OBG-SVF-mainpcb.html
 and here:
 https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-panelPCB/OBG-SVF-panelpcb.html
+
+## Build notes
+
+Pretty standard. Panel PCB and main PCB joined with 2x6 pin header/socket. Use two 10 mm M3 spacers and four M3 screws to hold them together.
+
+This time most of the components go on the panel-facing side. The power header and trimmer go on the other side. I intended the electrolytics to go on the panel-facing side but mine were too tall to fit between the boards so I mounted them on the other side.
+
+The trimmer adjusts V/Oct response. Adjust it so a change of 1 octave (1V) on the CV input results in a change of 18 mV at the base of Q1.
