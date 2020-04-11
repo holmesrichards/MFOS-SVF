@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rsholmes/Google Drive/Hobbies/Music/Instruments/Synths/MFOS/OBG-state-variable-filter/OBG-state-variable-filter/OBG-SVF-mainPCB/OBG-SVF-mainpcb.sch</source>
-    <date>Sat 11 Apr 2020 01:28:17 AM EDT</date>
+    <date>Sat 11 Apr 2020 01:31:15 PM EDT</date>
     <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -230,7 +230,7 @@
     <comp ref="J7">
       <value>EURO_PWR_2x5</value>
       <footprint>EurorackRSH:Eurorack_Power_Header_Shrouded</footprint>
-      <libsource lib="EurorackRSH" part="EURO_PWR_2x5" description=""/>
+      <libsource lib="EurorackRSH" part="EURO_PWR_2x5" description="Eurorack style 2x5 pin power header"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E49AE2C</tstamp>
     </comp>
@@ -509,6 +509,7 @@
       </pins>
     </libpart>
     <libpart lib="EurorackRSH" part="EURO_PWR_2x5">
+      <description>Eurorack style 2x5 pin power header</description>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">EURO_PWR_2x5</field>
