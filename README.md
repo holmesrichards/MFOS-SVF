@@ -8,3 +8,8 @@ Wilson's design was for a module in his own preferred format, with ±12V and gro
 Included in this repository are KiCad-format schematics and PCB designs for the two circuit boards, as well as an Inkscape .svg file for the panel design and a KiCad-format "PCB" for fabrication of the panel by a PCB company.
 
 The schematics are closely based upon Wilson's original and are governed by licensing information at http://musicfromouterspace.com. The PCB layouts and panel design are new, by Richard Holmes.
+
+BOMs are here:
+https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-mainPCB/OBG-SVF-mainpcb.html
+and here:
+https://github.com/holmesrichards/MFOS-SVF/blob/master/OBG-SVF-panelPCB/OBG-SVF-panelpcb.html
