@@ -111,7 +111,7 @@ Resonance
 Text Notes 3450 1100 0    50   ~ 0
 Freq Adj
 $Comp
-L EurorackRSH:Jack_123_pins J1
+L OBF-SVF:Jack_123_pins-EurorackRSH J1
 U 1 1 5E6260CC
 P 1650 2200
 F 0 "J1" H 1650 2000 50  0000 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 4100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EurorackRSH:Jack_123_pins J2
+L OBF-SVF:Jack_123_pins-EurorackRSH J2
 U 1 1 5E4D3510
 P 4550 2250
 F 0 "J2" H 4550 2050 50  0000 C CNN
@@ -193,7 +193,7 @@ $EndComp
 Text GLabel 3050 3650 2    50   Input ~ 0
 CVIn
 $Comp
-L EurorackRSH:Jack_123_pins J4
+L OBF-SVF:Jack_123_pins-EurorackRSH J4
 U 1 1 5E4F3F38
 P 4550 2950
 F 0 "J4" H 4550 2750 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "~" H 4550 2950 50  0001 C CNN
 $EndComp
 NoConn ~ 4100 2950
 $Comp
-L EurorackRSH:Jack_123_pins J6
+L OBF-SVF:Jack_123_pins-EurorackRSH J6
 U 1 1 5E4F9123
 P 4550 3650
 F 0 "J6" H 4550 3450 50  0000 C CNN
@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3600 2100 3750
 $Comp
-L EurorackRSH:Jack_123_pins J5
+L OBF-SVF:Jack_123_pins-EurorackRSH J5
 U 1 1 5E4ECEFF
 P 1650 3600
 F 0 "J5" H 1650 3400 50  0000 C CNN
@@ -233,7 +233,7 @@ F 3 "~" H 1650 3600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L EurorackRSH:Jack_123_pins J3
+L OBF-SVF:Jack_123_pins-EurorackRSH J3
 U 1 1 5E4DFEBE
 P 1650 2900
 F 0 "J3" H 1650 2700 50  0000 C CNN
