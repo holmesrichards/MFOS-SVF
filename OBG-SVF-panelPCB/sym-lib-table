@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OBF-SVF)(type Legacy)(uri ${KIPRJMOD}/OBF-SVF.lib)(options "")(descr ""))
+)
